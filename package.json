@@ -1,0 +1,25 @@
+{
+  "name": "file-transfer-website",
+  "version": "1.0.0",
+  "description": "A file transfer Website using Websockets and webrtc",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadhu1335/File-Transfer-Website.git"
+  },
+  "author": "Yadhukrishna K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadhu1335/File-Transfer-Website/issues"
+  },
+  "homepage": "https://github.com/yadhu1335/File-Transfer-Website#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
